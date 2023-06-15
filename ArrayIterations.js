@@ -22,7 +22,7 @@ console.log(result);
 const result = numbers.every((item) => item > 2);
 console.log(result);
 
-// every method checks if all ṣome elements passes the given test
+// some method checks if all elements passes the given test
 const result = numbers.some((item) => item > 2);
 console.log(result);
 
