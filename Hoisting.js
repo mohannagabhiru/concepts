@@ -1,20 +1,19 @@
 function test(){
     console.log("value is", x);
     // const x = 5;
-    let x;   
-
+    // let x;   
+    var x;
 }
 // test()
-
 
 function que2(){
     var x = 8; 
     var x;
+    // var x = 9;
     // Until the value initialized again is higher than the current, it holds same value
     console.log("value is", x);
 }
 // que2()
-
 
 function varTest(){
     var x = 1;
@@ -36,7 +35,6 @@ function letTest(){
 }
 // letTest()
 
-
 var rate = 10;
 function getRate(){
     // ALways the local scope variable gets priority
@@ -47,13 +45,13 @@ function getRate(){
         return 10
     }
 
-    var test = 10;
-    function test2(){
-        if(test == undefined){
-            var test = 20;
-            console.log(test, "test");
-        }
-    }
+    // var test = 10;
+    // function test2(){
+    //     if(test == undefined){
+    //         var test = 20;
+    //         console.log(test, "test");
+    //     }
+    // }
     // test2()
 }
 console.log("Result is", getRate());
